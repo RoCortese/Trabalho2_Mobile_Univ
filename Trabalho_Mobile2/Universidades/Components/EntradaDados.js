@@ -17,7 +17,7 @@ export const EntradaDados = (props) => {
                             onChangeText={attPais}
                             value={pais}/>
 
-                <Pressable color={"aqua"} style={styles.button} onPress={ () => props.returnPesquisar(universidade,pais)}>
+                <Pressable color={"aqua"} style={styles.button} onPress={ () => props.callBackPesquisar(universidade,pais)}>
                     <Text style={styles.text}>PESQUISAR</Text>
                 </Pressable>    
             </View>

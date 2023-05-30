@@ -23,7 +23,7 @@ export default function Main() {
 
   return (
     <View style={styles.container}>
-      <EntradaDados returnPesquisar={dados}/>
+      <EntradaDados callBackPesquisar={dados}/>
       <RenderDados resultado={result}/>
     </View>
   );
